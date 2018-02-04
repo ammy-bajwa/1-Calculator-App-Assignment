@@ -1,0 +1,15 @@
+@import './base/components/header.css';
+@import './base/components/inputs.css';
+@import './base/components/operation.css';
+@import './base/components/calculation.css';
+@import './base/components/answer.css';
+@import './base/components/form-div.css';
+
+ .container-fluid{
+     border: 3px solid black;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     padding: 20px;
+ }
