@@ -27,11 +27,11 @@ class Calculator extends React.Component {
         return (
             <div className='container-fluid'>
                 <div className='header'>
-                    <h1>Simple Calculator Application In Reactjs</h1>
-                    <h3>By Amir Ali</h3>
+                    <h1 className="text-center">Simple Calculator Application In Reactjs</h1>
+                    <h3 className="text-center">By Amir Ali</h3>
                 </div>
                 <form className='form-horizontal' onSubmit={this.onSubmit}>
-                    <div className='container-fluid'>
+                    <div className='container-fluid form'>
                         <input type='number' required id='num1' placeholder='Enter 1st Number' />
                         <input type='number' required id='num2' placeholder='Enter 2nd Number' />
                         <select id='operation'>

@@ -12,6 +12,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    color: black;
 }
 #num2{
     border: 2px solid black;
@@ -19,4 +20,5 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    color: black;
 }
